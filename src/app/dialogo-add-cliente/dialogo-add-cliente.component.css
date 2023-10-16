@@ -1,0 +1,12 @@
+.dialogo-entrada {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
