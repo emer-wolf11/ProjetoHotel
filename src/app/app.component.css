@@ -1,0 +1,35 @@
+.example-icon {
+  padding: 0 14px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.bnt_cadastrar{
+
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.lista_item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_list {
+  display: flex;
+  flex-direction: row;
+}
+
+.cliente {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
