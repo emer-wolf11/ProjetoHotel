@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Cadastro Cliente</h1>
+<div mat-dialog-content class="dialogo-entrada-quarto">
+  <form [formGroup]="quartoForm" (ngSubmit)="salvarQuarto()" class="form-quarto">
+    <mat-form-field>
+      <input matInput type="number" placeholder="Numero" formControlName="numero">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput type="number" placeholder="Andar" formControlName="andar">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput type="number" placeholder="Valor" formControlName="valor">
+    </mat-form-field>
+    <mat-dialog-actions>
+      <button mat-raised-button>Salvar</button>
+    </mat-dialog-actions>
+  </form>
+
+
+</div>

@@ -16,11 +16,13 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {NgIf} from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DialogoAddQuartoComponent } from './dialogo-add-quarto/dialogo-add-quarto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DialogoAddClienteComponent
+    DialogoAddClienteComponent,
+    DialogoAddQuartoComponent
   ],
   imports: [
     BrowserModule,

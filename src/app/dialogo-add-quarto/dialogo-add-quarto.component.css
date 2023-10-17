@@ -1,0 +1,12 @@
+.dialogo-entrada-quarto {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-quarto {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
